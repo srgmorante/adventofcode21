@@ -1,4 +1,4 @@
-import numbersArray from './numbersArray'
+const numbersArray = require('./numbersArray.js');
 
 function getPositionMap(numArr) {
   return numArr.reduce((prev, binNumber) => {
